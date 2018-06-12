@@ -1,4 +1,6 @@
-body {margin:0;display:block;font-weight: 700;font: 300 normal 15px/1.4 Raleway,sans-serif;letter-spacing: .05em;}
+{% load static %}
+
+body {background-color:#202020; margin:0;display:block;font-weight: 700;font: 300 normal 15px/1.4 Raleway,sans-serif;letter-spacing: .05em;}
 header {height :84px; overflow:hidden;}
 .contactheader{ float:right; text-transform: uppercase; margin-top:22px; padding-right:40px; }
 .contactnumber{ color: #ee6e12; font-weight: 700;font-size: 18px;font-family: Lato,sans-serif;}
@@ -17,7 +19,7 @@ header {height :84px; overflow:hidden;}
 .menuon>.linebar:nth-child(3) {transform: rotate(-130deg);margin-top:-8px;}
 
 /* navigation */
-.nav {border:0; overflow:hidden; height:;width:100%; background-color:#626262;}
+.nav {border:0; overflow:hidden; height:;width:100%; background-color:#404040;}
 .nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; width:550px;margin:auto;}
 .nav>ul>li {float:left;  display:block; }
 .nav a {padding:10px 12px; display:block; background-color:#626262;position: relative;z-index:2;overflow:hidden;color:white;text-decoration:none;}
@@ -64,4 +66,6 @@ header {height :84px; overflow:hidden;}
 .logoarbfooter {display:block; max-height:160px; width:100%; max-width:400px; margin:auto;}
 .logoengfooter {display:block; max-height:160px; width:100%; max-width:500px; margin:auto;}
 
-.bottomcontent {border:0; height:; padding-top:10px; background-color:grey; overflow:hidden;}
+.bottomcontent {border:0; height:; padding-top:10px;  overflow:hidden; background-image: url("img/bricks.jpg");}
+
+
