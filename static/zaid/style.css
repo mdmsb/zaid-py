@@ -2,7 +2,8 @@
 
 body {background-color:#202020; margin:0;display:block;font-weight: 700;font: 300 normal 15px/1.4 Raleway,sans-serif;letter-spacing: .05em;}
 header {height :84px; overflow:hidden;}
-.contactheader{ float:right; text-transform: uppercase; margin-top:22px; padding-right:40px; }
+.logo { font-family: 'Amita'; font-size:32px; color:#886868; width:250px; border:0px solid; margin:20px 20px; float:left; text-shadow: 2px 2px 4px #000000;}
+.contactheader{ float:right; text-transform: uppercase; margin-top:22px; padding-right:40px; color:white;}
 .contactnumber{ color: #ee6e12; font-weight: 700;font-size: 18px;font-family: Lato,sans-serif;}
 
 /* menubar */
@@ -22,10 +23,10 @@ header {height :84px; overflow:hidden;}
 .nav {border:0; overflow:hidden; height:;width:100%; background-color:#404040;}
 .nav>ul {list-style-type:none; margin:0; padding:0; overflow:hidden; width:550px;margin:auto;}
 .nav>ul>li {float:left;  display:block; }
-.nav a {padding:10px 12px; display:block; background-color:#626262;position: relative;z-index:2;overflow:hidden;color:white;text-decoration:none;}
-.nav a::after {position: absolute; content: ''; top:0; left: 50%; width: 0;  height: 100%;  background-color:#ee6e12; transform-origin:center;  transition:0.25s ease;  z-index:-1;}
+.nav a {padding:10px 12px; display:block; background-color:#404040;position: relative;z-index:2;overflow:hidden;color:white;text-decoration:none;}
+.nav a::after {position: absolute; content: ''; top:0; left: 50%; width: 0;  height: 100%;  background-color:rgb(112, 105, 100); transform-origin:center;  transition:0.25s ease;  z-index:-1;}
 .nav a:hover::after {width:100%;left:0;}
-.nav .active {background-color:rgb(238, 110, 18);}
+.nav .active {background-color:rgb(112, 105, 100);}
 .dropdown {float:left;}
 .dropdown-content {display:none;position:absolute;min-width:150px;top:122px;z-index:3;}
 @media only screen and (min-width:768px) {.dropdown:hover .dropdown-content {display:block;} }
@@ -48,7 +49,7 @@ header {height :84px; overflow:hidden;}
 }
 
 /* FOOTER */
-.bottomfooter {background-color:#626262;width:100%;text-align:center;color:#e0e0e0;height:80px; overflow:hidden;}
+.bottomfooter {background-color:#202020;width:100%;text-align:center;color:#e0e0e0;height:80px; overflow:hidden;}
 .bottomfooter li{display:inline;}
 .bottomfooter ul{padding:25px 0 20px 0;}
 
@@ -67,5 +68,30 @@ header {height :84px; overflow:hidden;}
 .logoengfooter {display:block; max-height:160px; width:100%; max-width:500px; margin:auto;}
 
 .bottomcontent {border:0; height:; padding-top:10px;  overflow:hidden; background-image: url("img/bricks.jpg");}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
 
 
